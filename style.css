@@ -1,0 +1,32 @@
+#main-div{
+    display: flex;
+    flex-direction: column;
+}
+#type-div{
+    display: flex;
+    justify-content: space-between;
+}
+#output-div{
+    background: black;
+    height: 180px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+.custom-btn{
+    background-color: rgb(241, 190, 22);
+    padding: 15px 30px;
+    margin: 5px;
+}
+select{
+    padding: 5px 25px;
+}
+textarea{
+    background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+    border-color: #ccc;
+    background-position: 0% 0.01%;
+}
